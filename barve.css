@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+body{
+    font-family: 'Indie Flower', cursive;
+    background-color: #232323;
+}
+.kvadrat{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin:1.66%;
+    margin-top: 30px;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+    border-radius: 10%;
+}
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1{
+    line-height: 80px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-color: steelblue;
+    font-weight: 200;
+}
+#stripe{
+    text-align: center;
+    color: cornflowerblue;
+    background-color: white;
+}
+
+
+#poskusi{
+    display:inline-block;
+    width: 20%;
+    
+}
+#prikaz{
+    font-size: 3em;
+}
+
+.trenutno{
+    background-color:steelblue;
+    color:white;
+}
+button{
+    font-family: 'Indie Flower', cursive;
+    padding: 4px;
+    height: 20px;
+    color:steelblue;
+    background-color: white;
+    height: 100%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 1.2em;
+    outline: none;
+ 
+}
+#poskusi{
+    visibility: hidden;
+}
+button:hover{
+    background-color:steelblue;
+    color:white;
+    transition-property: all;
+    transition-duration:  0.9s;
+}
